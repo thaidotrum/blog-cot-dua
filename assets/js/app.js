@@ -102,7 +102,8 @@ sidebar.addEventListener('click', (event) => {
 });
 
 async function loadFile(path, json = false) {
-  const response = await fetch(new URL(path, document.baseURI));
+  // Kiểm tra bản mới trên server khi tải bài/danh mục, vẫn tận dụng cache nếu không đổi.
+  const response = await fetch(new URL(path, document.baseURI), { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Không tải được ${path}`);
   return json ? response.json() : response.text();
 }
