@@ -1,0 +1,11 @@
+# Ảnh tham khảo và ảnh chụp thử nằm ở gốc; ảnh bài viết nằm trong assets/images.
+/*.png
+/*.jpg
+/*.jpeg
+
+# File riêng trên máy, không đưa lên repository.
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*

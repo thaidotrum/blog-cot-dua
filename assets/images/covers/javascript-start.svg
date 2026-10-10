@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#eaf1ff"/>
+  <circle cx="830" cy="60" r="220" fill="#dbe6fc"/>
+  <rect x="110" y="96" width="740" height="348" rx="22" fill="#fff" stroke="#b6c9ef" stroke-width="3"/>
+  <path d="M110 162H850" stroke="#dae3f4" stroke-width="3"/>
+  <g fill="#a8bcdf"><circle cx="146" cy="129" r="8"/><circle cx="174" cy="129" r="8"/><circle cx="202" cy="129" r="8"/></g>
+  <text x="152" y="243" font-family="Consolas,monospace" font-size="32" fill="#2166da">console.log(</text>
+  <text x="152" y="302" font-family="Consolas,monospace" font-size="32" fill="#008728">  &quot;Hello, world!&quot;</text>
+  <text x="152" y="360" font-family="Consolas,monospace" font-size="32" fill="#2166da">);</text>
+  <rect x="698" y="322" width="106" height="84" rx="12" fill="#f5d85f"/>
+  <text x="724" y="382" font-family="system-ui,sans-serif" font-weight="700" font-size="42" fill="#403921">JS</text>
+</svg>

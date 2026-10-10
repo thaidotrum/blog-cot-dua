@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f3efdf"/>
+  <circle cx="70" cy="480" r="240" fill="#ebe4ca"/>
+  <g stroke="#d3c9a9" stroke-width="2" fill="#fffdf6">
+    <rect x="90" y="105" width="365" height="150" rx="18"/>
+    <rect x="505" y="105" width="365" height="150" rx="18"/>
+    <rect x="90" y="285" width="365" height="150" rx="18"/>
+    <rect x="505" y="285" width="365" height="150" rx="18"/>
+  </g>
+  <g font-family="Consolas,monospace" font-size="36">
+    <text x="126" y="166" fill="#2166da">const</text><text x="126" y="217" fill="#536071">ten = &quot;An&quot;</text>
+    <text x="542" y="166" fill="#2166da">let</text><text x="542" y="217" fill="#536071">soBai = 2</text>
+    <text x="126" y="346" fill="#008728">String</text><text x="126" y="397" fill="#536071">&quot;Xin chào&quot;</text>
+    <text x="542" y="346" fill="#9b35ff">Boolean</text><text x="542" y="397" fill="#536071">true / false</text>
+  </g>
+</svg>

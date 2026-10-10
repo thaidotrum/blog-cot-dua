@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blog cá nhân chia sẻ kiến thức, trải nghiệm và cảm nghĩ — hy vọng bạn tìm được điều hữu ích khi ghé đọc.">
+  <title>Blog của Cốt Dừa — Kiến thức, trải nghiệm & cảm nghĩ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/lib/marked.umd.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/kotlin.min.js"></script>
+  <script defer src="./assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Đến nội dung bài viết</a>
+  <header class="topbar">
+    <a class="brand" href="#/">Blog của Cốt Dừa<span class="brand-dot" aria-hidden="true">.</span></a>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <a class="home-link" href="#/">Trang chủ</a>
+      <a class="home-link series-link" href="#/series">Series</a>
+      <a class="home-link tags-link" href="#/tags">Tags</a>
+      <a class="home-link archives-link" href="#/archives">Hành trình</a>
+      <a class="home-link about-link" href="#/about">About me</a>
+    </nav>
+  </header>
+
+  <div class="reading-toolbar" id="reading-toolbar" hidden>
+    <a class="reading-exit" id="reading-exit" href="#/series">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      <span id="series-title">Series</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Danh sách bài</button>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Danh sách chủ đề và bài viết">
+      <nav id="series-list" aria-label="Các bài trong series"></nav>
+    </aside>
+
+    <main class="main-panel" id="main-content" tabindex="-1">
+      <section class="home-panel" id="home-panel" aria-labelledby="home-title" hidden>
+        <div class="home-welcome">
+          <header class="home-intro">
+            <p class="eyebrow hero-label">BLOG CÁ NHÂN · KIẾN THỨC · TRẢI NGHIỆM</p>
+            <h1 id="home-title">Một góc để viết,<br><span>một nơi để chia sẻ.</span></h1>
+            <p class="hero-description">Mình viết về những điều đã học, những trải nghiệm và cảm nghĩ trong cuộc sống. Hy vọng mỗi bài viết mang đến cho bạn một điều hữu ích hoặc một góc nhìn mới.</p>
+            <div class="hero-actions">
+              <a class="hero-button primary" href="#latest-posts" id="browse-posts">Khám phá bài viết</a>
+              <a class="hero-button secondary" href="#/about">Về người viết</a>
+            </div>
+          </header>
+          <section class="about-card" aria-labelledby="about-title">
+            <p class="eyebrow">PHÍA SAU NHỮNG GHI CHÚ</p>
+            <h2 id="about-title">Một chút về mình</h2>
+            <p>Mình thích ghi lại những điều vừa hiểu, cả những chỗ từng bối rối. Hy vọng bạn tìm được một ý tưởng hay hoặc một góc nhìn hữu ích khi ghé qua đây.</p>
+            <a class="about-cta" href="#/about">Tìm hiểu về mình</a>
+            <!-- URL mẫu: thay your-username bằng tài khoản thật trước khi xuất bản. -->
+            <nav class="profile-links" id="profile-links" aria-label="Tìm hiểu thêm về tác giả">
+              <a class="profile-link" href="https://youtube.com/@learn-all-2026" target="_blank" rel="noopener noreferrer" aria-label="YouTube (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z"/></svg>
+                YouTube
+              </a>
+              <a class="profile-link" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7M15 22v-3.9c.04-1-.33-1.75-1-2.1 3.3-.37 6.7-1.6 6.7-7.2a5.6 5.6 0 0 0-1.5-3.9 5.2 5.2 0 0 0-.14-3.8s-1.2-.4-4 1.5a13.7 13.7 0 0 0-7.2 0C5.1.7 3.9 1.1 3.9 1.1a5.2 5.2 0 0 0-.14 3.8 5.6 5.6 0 0 0-1.5 3.9c0 5.6 3.4 6.8 6.7 7.2-.65.35-1.02 1.1-1 2.1V22"/></svg>
+                GitHub
+              </a>
+              <a class="profile-link" href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7m4 0v-7m0 3a3 3 0 0 1 6 0v4"/><circle cx="8" cy="7" r=".7"/></svg>
+                LinkedIn
+              </a>
+            </nav>
+          </section>
+        </div>
+        <div class="home-section-heading">
+          <h2 id="latest-posts" tabindex="-1">Bài viết mới nhất</h2>
+          <span id="post-count"></span>
+        </div>
+        <div class="post-grid" id="post-grid"></div>
+      </section>
+      <section class="resume-panel" id="resume-panel" aria-labelledby="resume-title" hidden>
+        <header class="resume-header">
+          <p class="eyebrow">ABOUT ME / HỒ SƠ CÁ NHÂN</p>
+          <!-- Thay các nội dung mẫu trong trang này bằng thông tin thật của bạn. -->
+          <h1 id="resume-title">Cốt Dừa</h1>
+          <p class="resume-subtitle">Học hỏi, thử nghiệm và chia sẻ những điều hữu ích.</p>
+          <p class="resume-draft">Hồ sơ mẫu — thông tin kỹ năng, kinh nghiệm và học vấn bên dưới cần được cập nhật.</p>
+        </header>
+        <div class="resume-layout">
+          <div class="resume-content">
+            <section class="resume-section" aria-labelledby="resume-intro-title">
+              <p class="eyebrow">01 / GIỚI THIỆU</p>
+              <h2 id="resume-intro-title">Một chút về mình</h2>
+              <p>Mình viết lại kiến thức theo cách hiểu của bản thân, ghi chép trải nghiệm học tập và chia sẻ những cảm nghĩ trên hành trình đó. Mình mong blog này trở thành nơi người đọc tìm được những ví dụ gần gũi và điều hữu ích để thử áp dụng.</p>
+              <p class="resume-placeholder">Thêm 1–2 câu về lĩnh vực bạn quan tâm và định hướng nghề nghiệp của mình.</p>
+            </section>
+            <section class="resume-section" aria-labelledby="resume-skills-title">
+              <p class="eyebrow">02 / KỸ NĂNG</p>
+              <h2 id="resume-skills-title">Những gì mình đang học và sử dụng</h2>
+              <p class="resume-placeholder">Ví dụ cách trình bày — thay bằng kỹ năng thực tế và mức độ sử dụng của bạn.</p>
+              <dl class="skills-list">
+                <div><dt>Công nghệ</dt><dd>[Ngôn ngữ, framework hoặc công cụ bạn đã dùng]</dd></div>
+                <div><dt>Thực hành</dt><dd>[Cách bạn áp dụng kỹ năng trong một dự án cụ thể]</dd></div>
+                <div><dt>Đang học</dt><dd>[Kiến thức bạn đang tìm hiểu và mục tiêu tiếp theo]</dd></div>
+              </dl>
+            </section>
+            <section class="resume-section" aria-labelledby="resume-projects-title">
+              <p class="eyebrow">03 / DỰ ÁN</p>
+              <h2 id="resume-projects-title">Những thứ mình xây dựng</h2>
+              <article class="resume-project">
+                <span class="resume-project-type">DỰ ÁN CÁ NHÂN</span>
+                <h3>Blog & ghi chú học tập</h3>
+                <p>Website chia sẻ bài viết và ghi chú theo series, với nội dung Markdown, hình minh họa và đoạn code có màu cú pháp. Toàn bộ giao diện chạy trên trình duyệt.</p>
+                <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Markdown</span></div>
+                <a class="about-cta" href="#/">Xem các bài viết →</a>
+              </article>
+              <p class="resume-placeholder">Thêm dự án khác: vấn đề giải quyết, vai trò của bạn, kết quả và link demo/GitHub.</p>
+            </section>
+            <section class="resume-section" aria-labelledby="resume-experience-title">
+              <p class="eyebrow">04 / KINH NGHIỆM</p>
+              <h2 id="resume-experience-title">Hành trình làm việc và hoạt động</h2>
+              <div class="resume-timeline">
+                <p class="resume-period">[Thời gian bắt đầu — kết thúc]</p>
+                <h3>[Vai trò] · [Đơn vị / hoạt động]</h3>
+                <p class="resume-placeholder">Mô tả ngắn công việc, đóng góp hoặc kết quả. Có thể dùng dự án nhóm, hoạt động cộng đồng hoặc trải nghiệm thực tập.</p>
+              </div>
+            </section>
+            <section class="resume-section" aria-labelledby="resume-education-title">
+              <p class="eyebrow">05 / HỌC VẤN</p>
+              <h2 id="resume-education-title">Học vấn & khóa học</h2>
+              <div class="resume-timeline">
+                <p class="resume-period">[Thời gian]</p>
+                <h3>[Trường / khóa học] · [Chuyên ngành / chủ đề]</h3>
+                <p class="resume-placeholder">Thêm kiến thức nổi bật hoặc chứng chỉ phù hợp nếu có.</p>
+              </div>
+            </section>
+          </div>
+          <aside class="resume-contact" aria-labelledby="resume-contact-title">
+            <p class="eyebrow">06 / LIÊN HỆ</p>
+            <h2 id="resume-contact-title">Kết nối với mình</h2>
+            <p>Bạn có thể xem thêm dự án, hồ sơ hoặc gửi một lời nhắn qua các kênh dưới đây.</p>
+            <!-- URL và email mẫu: thay bằng thông tin thật trước khi xuất bản. -->
+            <nav class="resume-contact-links" aria-label="Liên hệ tác giả">
+              <a class="profile-link" href="https://youtube.com/@learn-all-2026" target="_blank" rel="noopener noreferrer" aria-label="YouTube (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z"/></svg>
+                YouTube
+              </a>
+              <a class="profile-link" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7M15 22v-3.9c.04-1-.33-1.75-1-2.1 3.3-.37 6.7-1.6 6.7-7.2a5.6 5.6 0 0 0-1.5-3.9 5.2 5.2 0 0 0-.14-3.8s-1.2-.4-4 1.5a13.7 13.7 0 0 0-7.2 0C5.1.7 3.9 1.1 3.9 1.1a5.2 5.2 0 0 0-.14 3.8 5.6 5.6 0 0 0-1.5 3.9c0 5.6 3.4 6.8 6.7 7.2-.65.35-1.02 1.1-1 2.1V22"/></svg>
+                GitHub
+              </a>
+              <a class="profile-link" href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (mở tab mới)">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7m4 0v-7m0 3a3 3 0 0 1 6 0v4"/><circle cx="8" cy="7" r=".7"/></svg>
+                LinkedIn
+              </a>
+              <a class="profile-link" href="mailto:you@example.com">
+                <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+                Email
+              </a>
+            </nav>
+            <p class="resume-placeholder">GitHub, LinkedIn và email đang là ví dụ để bạn thay sau.</p>
+            <a class="about-cta" href="#/">← Quay về blog</a>
+          </aside>
+        </div>
+      </section>
+      <section class="series-panel" id="series-panel" hidden aria-labelledby="collections-title">
+        <header class="tags-header">
+          <p class="eyebrow">ĐỌC THEO MỘT HÀNH TRÌNH</p>
+          <div class="tags-heading"><h1 id="collections-title">Series</h1><span id="series-count" class="tag-total"></span></div>
+          <p id="collections-description">Những bài viết mình gom lại theo khóa học, cuốn sách hoặc một chủ đề. Chọn một series để đọc từ đầu và theo dõi mạch nội dung.</p>
+        </header>
+        <div class="series-grid" id="collection-grid"></div>
+        <section id="collection-detail" hidden aria-labelledby="collection-posts-title">
+          <div class="collection-actions"><a class="all-tags" href="#/series">← Tất cả series</a><a class="hero-button primary" id="start-series" hidden>Đọc từ bài đầu</a></div>
+          <h2 id="collection-posts-title">Các bài trong series</h2>
+          <ol class="collection-posts" id="collection-posts"></ol>
+          <p class="status" id="collection-empty" hidden></p>
+        </section>
+      </section>
+      <section class="archives-panel" id="archives-panel" hidden aria-labelledby="archives-title">
+        <header class="tags-header">
+          <p class="eyebrow">TỪNG BÀI VIẾT, TỪNG BƯỚC NHỎ</p>
+          <div class="tags-heading"><h1 id="archives-title">Hành trình viết bài</h1><span class="tag-total" id="archives-count"></span></div>
+          <p>Nhìn lại những điều Cốt Dừa đã học, thử và viết. Các bài được gom theo năm, tháng — mới nhất trước.</p>
+        </header>
+        <div class="archive-timeline" id="archive-timeline"></div>
+        <p class="status" id="archives-empty" hidden>Hành trình sẽ bắt đầu từ bài viết đầu tiên. Hẹn bạn ghé lại nhé!</p>
+      </section>
+      <section class="tags-panel" id="tags-panel" hidden aria-labelledby="tags-title">
+        <header class="tags-header">
+          <p class="eyebrow">KHÁM PHÁ THEO CHỦ ĐỀ</p>
+          <div class="tags-heading"><h1 id="tags-title">Tags</h1><span id="tag-count" class="tag-total"></span></div>
+          <p>Kiến thức, trải nghiệm và những điều mình muốn chia sẻ. Chọn một tag để tìm bài bạn quan tâm.</p>
+        </header>
+        <nav class="tag-cloud" id="tag-cloud" aria-label="Tags của blog"></nav>
+        <section id="tag-results" hidden aria-labelledby="tag-results-title">
+          <div class="home-section-heading"><h2 id="tag-results-title"></h2><a class="all-tags" href="#/tags">Tất cả tags</a></div>
+          <p id="tag-empty" class="status" hidden>Chưa có bài viết với tag này. Bạn thử chọn một tag khác nhé.</p>
+          <div class="post-grid" id="tag-post-grid"></div>
+        </section>
+      </section>
+      <article class="article-card" aria-busy="true">
+        <header class="article-header" id="article-header" hidden>
+          <p class="eyebrow">GHI CHÚ & TRẢI NGHIỆM</p>
+          <h1 id="article-title"></h1>
+          <div class="article-meta">
+            <time id="article-date"></time>
+            <span aria-hidden="true">·</span>
+            <span id="reading-time"></span>
+          </div>
+          <div class="tags" id="article-tags" aria-label="Chủ đề bài viết"></div>
+        </header>
+        <p id="status" class="status" role="status">Đang tải bài viết…</p>
+        <div class="article-body" id="article-body"></div>
+        <footer class="article-footer" id="article-navigation" hidden>
+          <a id="previous-post" class="navigation-link" hidden></a>
+          <a id="next-post" class="navigation-link next" hidden></a>
+        </footer>
+      </article>
+      <p class="reading-note">Ghi lại để hiểu hơn. Chia sẻ để cùng học.</p>
+      <noscript><p class="status">Vui lòng bật JavaScript để đọc các bài viết Markdown.</p></noscript>
+    </main>
+  </div>
+</body>
+</html>
+
