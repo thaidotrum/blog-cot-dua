@@ -6,14 +6,23 @@
       "title": "JavaScript cơ bản",
       "type": "topic",
       "description": "Hành trình làm quen với JavaScript, từ chương trình đầu tiên đến biến và kiểu dữ liệu. Mình viết lại những điều đã hiểu cùng ví dụ nhỏ để bạn dễ thử theo.",
-      "postIds": ["bat-dau", "bien-va-kieu-du-lieu", "ham-trong-javascript", "mang-trong-javascript", "vong-lap-trong-javascript"]
+      "postIds": [
+        "bat-dau",
+        "bien-va-kieu-du-lieu",
+        "ham-trong-javascript",
+        "mang-trong-javascript",
+        "vong-lap-trong-javascript",
+        "minh-hieu-if-else-trong-javascript-nhu-the-nao"
+      ]
     },
     {
       "id": "kotlin-co-ban",
       "title": "Kotlin cơ bản",
       "type": "topic",
       "description": "Những bài viết tìm hiểu Kotlin qua ví dụ và hình minh họa, bắt đầu từ cách một hàm nhận đầu vào và xử lý công việc.",
-      "postIds": ["ham-trong-kotlin"]
+      "postIds": [
+        "ham-trong-kotlin"
+      ]
     }
   ],
   "posts": [
@@ -23,7 +32,10 @@
       "date": "2026-10-10",
       "excerpt": "Từ lời chào đầu tiên trong Console đến cách mình học mỗi ngày: bắt đầu nhỏ, tự thử và ghi lại điều đã hiểu.",
       "cover": "assets/images/covers/javascript-start.svg",
-      "tags": ["JavaScript", "Trải nghiệm học tập"],
+      "tags": [
+        "JavaScript",
+        "Trải nghiệm học tập"
+      ],
       "path": "content/posts/javascript/bat-dau.md"
     },
     {
@@ -32,7 +44,10 @@
       "date": "2026-10-11",
       "excerpt": "Khi nào dùng const, khi nào dùng let? Những ghi chú và ví dụ nhỏ về biến, chuỗi, số và boolean.",
       "cover": "assets/images/covers/javascript-variables.svg",
-      "tags": ["JavaScript", "Ghi chú"],
+      "tags": [
+        "JavaScript",
+        "Ghi chú"
+      ],
       "path": "content/posts/javascript/bien-va-kieu-du-lieu.md"
     },
     {
@@ -41,7 +56,11 @@
       "date": "2026-10-10",
       "excerpt": "Nhìn hàm như một chiếc hộp: tìm hiểu tên hàm, đầu vào và giá trị trả về qua sáu sơ đồ minh họa.",
       "cover": "assets/images/kotlin/function-overview.png",
-      "tags": ["Kotlin", "Ghi chú", "Hình minh họa"],
+      "tags": [
+        "Kotlin",
+        "Ghi chú",
+        "Hình minh họa"
+      ],
       "path": "content/posts/kotlin/ham-trong-kotlin.md"
     },
     {
@@ -50,7 +69,10 @@
       "date": "2026-10-11",
       "excerpt": "Mình tìm hiểu hàm, tham số và cách gom những đoạn code lặp lại.",
       "cover": "assets/images/covers/javascript-start.svg",
-      "tags": ["JavaScript", "Ghi chú"],
+      "tags": [
+        "JavaScript",
+        "Ghi chú"
+      ],
       "path": "content/posts/javascript/ham-trong-javascript.md"
     },
     {
@@ -59,7 +81,10 @@
       "date": "2026-10-11",
       "excerpt": "Bài mẫu của Cốt Dừa: làm quen với mảng, thêm phần tử và duyệt danh sách bằng một ví dụ nhỏ.",
       "cover": "assets/images/covers/javascript-variables.svg",
-      "tags": ["JavaScript", "Ghi chú"],
+      "tags": [
+        "JavaScript",
+        "Ghi chú"
+      ],
       "path": "content/posts/javascript/mang-trong-javascript.md"
     },
     {
@@ -68,8 +93,24 @@
       "date": "2026-10-11",
       "excerpt": "Bài test mới của Cốt Dừa: thử vòng lặp for và for...of để xử lý những công việc lặp lại.",
       "cover": "assets/images/covers/javascript-start.svg",
-      "tags": ["JavaScript", "Ghi chú"],
+      "tags": [
+        "JavaScript",
+        "Ghi chú"
+      ],
       "path": "content/posts/javascript/vong-lap-trong-javascript.md"
+    },
+    {
+      "id": "minh-hieu-if-else-trong-javascript-nhu-the-nao",
+      "title": "Mình hiểu if else trong JavaScript như thế nào",
+      "date": "2026-10-11",
+      "excerpt": "Cách mình dùng if else để xử lý điều kiện, kèm ví dụ nhỏ và những lỗi từng gặp.",
+      "cover": "assets/images/covers/javascript-start.svg",
+      "tags": [
+        "JavaScript",
+        "Ghi chú",
+        "Trải nghiệm học tập"
+      ],
+      "path": "content/posts/javascript/minh-hieu-if-else-trong-javascript-nhu-the-nao.md"
     }
   ]
 }
