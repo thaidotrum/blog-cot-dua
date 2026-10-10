@@ -6,7 +6,7 @@
       "title": "JavaScript cơ bản",
       "type": "topic",
       "description": "Hành trình làm quen với JavaScript, từ chương trình đầu tiên đến biến và kiểu dữ liệu. Mình viết lại những điều đã hiểu cùng ví dụ nhỏ để bạn dễ thử theo.",
-      "postIds": ["bat-dau", "bien-va-kieu-du-lieu", "ham-trong-javascript", "mang-trong-javascript"]
+      "postIds": ["bat-dau", "bien-va-kieu-du-lieu", "ham-trong-javascript", "mang-trong-javascript", "vong-lap-trong-javascript"]
     },
     {
       "id": "kotlin-co-ban",
@@ -61,6 +61,15 @@
       "cover": "assets/images/covers/javascript-variables.svg",
       "tags": ["JavaScript", "Ghi chú"],
       "path": "content/posts/javascript/mang-trong-javascript.md"
+    },
+    {
+      "id": "vong-lap-trong-javascript",
+      "title": "Vòng lặp trong JavaScript — bài test cập nhật lần 2",
+      "date": "2026-10-11",
+      "excerpt": "Bài test mới của Cốt Dừa: thử vòng lặp for và for...of để xử lý những công việc lặp lại.",
+      "cover": "assets/images/covers/javascript-start.svg",
+      "tags": ["JavaScript", "Ghi chú"],
+      "path": "content/posts/javascript/vong-lap-trong-javascript.md"
     }
   ]
 }
