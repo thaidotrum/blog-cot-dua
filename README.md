@@ -17,6 +17,8 @@ Sau khi triển khai thành công, địa chỉ blog là `https://thaidotrum.git
 
 Giữ bản nháp chưa muốn công khai ở ngoài repository. Blog chưa có màn hình quản trị để soạn và đăng bài.
 
+Danh mục JSON và bài Markdown được tải bằng URL có dấu thời gian và `cache: no-store` để tránh dùng nội dung cũ. Khi sửa `assets/js/app.js`, cập nhật tham số `v` trong thẻ script của `index.html` để trình duyệt tải phiên bản mã mới. Đăng thêm bài không cần đổi tham số này; đợi Pages triển khai xong rồi tải lại trang.
+
 Website chia sẻ kiến thức theo cách hiểu của tác giả, ghi chú học tập, trải nghiệm khi học và những bài viết cảm nghĩ. Mục tiêu là giúp người đọc dễ tìm nội dung, theo dõi một chuỗi bài và rút ra điều hữu ích từ trải nghiệm thực tế.
 
 README này mô tả thiết kế và kế hoạch triển khai. Khung Phase 1 đã có hai bài mẫu, giao diện responsive và JavaScript cơ bản để đọc/chuyển bài. Các quyết định phát triển tuân theo [AGENTS.md](./AGENTS.md).
