@@ -6,7 +6,7 @@
       "title": "JavaScript cơ bản",
       "type": "topic",
       "description": "Hành trình làm quen với JavaScript, từ chương trình đầu tiên đến biến và kiểu dữ liệu. Mình viết lại những điều đã hiểu cùng ví dụ nhỏ để bạn dễ thử theo.",
-      "postIds": ["bat-dau", "bien-va-kieu-du-lieu", "ham-trong-javascript"]
+      "postIds": ["bat-dau", "bien-va-kieu-du-lieu", "ham-trong-javascript", "mang-trong-javascript"]
     },
     {
       "id": "kotlin-co-ban",
@@ -52,6 +52,15 @@
       "cover": "assets/images/covers/javascript-start.svg",
       "tags": ["JavaScript", "Ghi chú"],
       "path": "content/posts/javascript/ham-trong-javascript.md"
+    },
+    {
+      "id": "mang-trong-javascript",
+      "title": "Mảng trong JavaScript — bài mẫu để thử cập nhật",
+      "date": "2026-10-11",
+      "excerpt": "Bài mẫu của Cốt Dừa: làm quen với mảng, thêm phần tử và duyệt danh sách bằng một ví dụ nhỏ.",
+      "cover": "assets/images/covers/javascript-variables.svg",
+      "tags": ["JavaScript", "Ghi chú"],
+      "path": "content/posts/javascript/mang-trong-javascript.md"
     }
   ]
 }
