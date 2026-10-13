@@ -2,6 +2,13 @@
   "schemaVersion": 1,
   "series": [
     {
+      "id": "devops",
+      "title": "DevOps",
+      "type": "topic",
+      "description": "Hành trình thực hành DevOps của Cốt Dừa: từ Git, GitHub và CI đến tự động hóa, bảo mật và triển khai ứng dụng. Mỗi bài lưu lại những điều đã thử và bài học rút ra.",
+      "postIds": ["github-pull-request-va-ci"]
+    },
+    {
       "id": "javascript-co-ban",
       "title": "JavaScript cơ bản",
       "type": "topic",
@@ -26,6 +33,15 @@
     }
   ],
   "posts": [
+    {
+      "id": "github-pull-request-va-ci",
+      "title": "Buổi 2 — GitHub, Pull Request và CI",
+      "date": "2026-10-13",
+      "excerpt": "Thực hành đưa dự án lên GitHub, mở Pull Request và chạy test với GitHub Actions. Theo dõi CI xanh → đỏ → xanh và ghi lại những điều dễ quên.",
+      "cover": "assets/images/covers/devops-ci.svg",
+      "tags": ["DevOps", "GitHub", "CI", "GitHub Actions"],
+      "path": "content/posts/devops/github-pull-request-va-ci.md"
+    },
     {
       "id": "bat-dau",
       "title": "Mình bắt đầu học JavaScript như thế nào",

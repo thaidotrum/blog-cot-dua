@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#eef4ff"/>
+  <circle cx="890" cy="40" r="180" fill="#dce8ff"/>
+  <rect x="80" y="80" width="800" height="380" rx="24" fill="white" stroke="#c7d7f4" stroke-width="2"/>
+  <g font-family="Arial, sans-serif">
+    <text x="130" y="155" fill="#2563eb" font-size="24" font-weight="700">DEVOPS · GITHUB ACTIONS</text>
+    <text x="130" y="225" fill="#233047" font-size="44" font-weight="700">GitHub, Pull Request &amp; CI</text>
+    <g text-anchor="middle" font-size="24" font-weight="700">
+      <rect x="130" y="285" width="180" height="76" rx="14" fill="#eff4ff"/>
+      <text x="220" y="332" fill="#2563eb">Commit</text>
+      <path d="M330 323h45m-12-10 12 10-12 10" fill="none" stroke="#90a4c4" stroke-width="3"/>
+      <rect x="390" y="285" width="180" height="76" rx="14" fill="#eff4ff"/>
+      <text x="480" y="332" fill="#2563eb">PR</text>
+      <path d="M590 323h45m-12-10 12 10-12 10" fill="none" stroke="#90a4c4" stroke-width="3"/>
+      <rect x="650" y="285" width="180" height="76" rx="14" fill="#e8f6ef"/>
+      <text x="740" y="332" fill="#237748">CI / Test</text>
+    </g>
+    <text x="130" y="410" fill="#64748b" font-size="22">Học qua thực hành · Blog của Cốt Dừa</text>
+  </g>
+</svg>
